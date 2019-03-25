@@ -1,0 +1,22 @@
+#!/bin/bash
+
+echo "!!!!!!!!!!!!!!!!!!!!!!!!! HELLO ADMIN !!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+echo "!!!!!!!!!!!!!!!!!!!! WELCOME TO TRUST MEDIA !!!!!!!!!!!!!!!!!!!!!!"
+echo "!!! TRUST MEDIA GOING TO BE THE FIRST BOOK PUBLISHING IN ASIAN !!!"
+echo "                                                                  "
+echo "                                                                  "
+echo "1. BOOK "
+echo "2. AUTHOR "
+echo "3. EMPLOYEE "
+echo "PATNER DISTRIBUTION "
+echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+read -p "CHOOSE YOUR OPTION : " cho;
+case $cho in 
+1)
+ clear
+ echo "list Author in Trust Media"
+ cat /home/sabrina/Desktop/project/book.txt
+ echo -n "Back to menu (y/Y)"
+ read yy
+      if [ $yy =esac
+
